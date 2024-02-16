@@ -1,51 +1,47 @@
 {
   "branches": ["main"],
-  "plugins": [
+  "plugins":
     [
-      "@semantic-release/commit-analyzer",
-      {
-        "preset": "angular",
-        "releaseRules": [
-          { "type": "build", "release": "patch" },
-          { "type": "ci", "release": "patch" },
-          { "type": "docs", "release": "patch" },
-          { "type": "style", "release": "patch" },
-          { "type": "refactor", "release": "patch" },
-          { "type": "test", "release": "patch" }
-        ]
-      }
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "angular",
+          "releaseRules":
+            [
+              { "type": "build", "release": "patch" },
+              { "type": "ci", "release": "patch" },
+              { "type": "docs", "release": "patch" },
+              { "type": "style", "release": "patch" },
+              { "type": "refactor", "release": "patch" },
+              { "type": "test", "release": "patch" },
+            ],
+        },
+      ],
+      [
+        "semantic-release-gitmoji",
+        {
+          "releaseRules":
+            {
+              "major": [":boom:", "💥"],
+              "minor": [":sparkles:", "✨"],
+              "patch": [":rocket:", "🚀", ":ambulance:", "🚑️", ":bug:", "🐛"],
+            },
+        },
+      ],
+      "@semantic-release/npm",
+      "@semantic-release/release-notes-generator",
+      ["@semantic-release/changelog", { "changelogFile": "docs/CHANGELOG.md" }],
+      [
+        "@semantic-release/exec",
+        { "prepareCmd": "echo ${nextRelease.version} > VERSION.txt" },
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": ["docs/CHANGELOG.md", "package.json", "VERSION.txt"],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes} 🚀",
+        },
+      ],
+      "@semantic-release/github",
     ],
-    [
-      "semantic-release-gitmoji",
-      {
-        "releaseRules": {
-          "major": [":boom:", "💥"],
-          "minor": [":sparkles:", "✨"],
-          "patch": [":rocket:", "🚀", ":ambulance:", "🚑️", ":bug:", "🐛"]
-        }
-      }
-    ],
-    "@semantic-release/npm",
-    "@semantic-release/release-notes-generator",
-    [
-      "@semantic-release/changelog",
-      {
-        "changelogFile": "docs/CHANGELOG.md"
-      }
-    ],
-     [
-      "@semantic-release/exec",
-      {
-        "prepareCmd": "echo ${nextRelease.version} > VERSION.txt"
-      }
-    ],
-    [
-      "@semantic-release/git",
-      {
-        "assets": ["docs/CHANGELOG.md", "package.json", "VERSION.txt"],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes} 🚀"
-      }
-    ],
-    "@semantic-release/github",
-  ]
 }
