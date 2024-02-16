@@ -32,6 +32,12 @@
         "changelogFile": "docs/CHANGELOG.md"
       }
     ],
+     [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "echo ${nextRelease.version} > VERSION.txt"
+      }
+    ],
     [
       "@semantic-release/git",
       {
@@ -41,11 +47,5 @@
     ],
     "@semantic-release/npm",
     "@semantic-release/github",
-    [
-      "@semantic-release/exec",
-      {
-        "prepareCmd": "echo ${nextRelease.version} > VERSION.txt"
-      }
-    ]
   ]
 }
