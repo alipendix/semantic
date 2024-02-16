@@ -1,0 +1,16 @@
+{
+    "name": "semantic",
+    "version": "1.0.0",
+    "private": true,
+    "devDependencies": {
+        "@google/semantic-release-replace-plugin": "1.2.0",
+        "@semantic-release/changelog": "~6.0.3",
+        "@semantic-release/exec": "~6.0.3",
+        "@semantic-release/git": "~10.0.1",
+        "@semantic-release/github": "~9.0.3",
+        "@semantic-release/npm": "~10.0.4"
+    },
+    "dependencies": {
+        "semantic-release-gitmoji": "^1.6.5"
+    }
+}
