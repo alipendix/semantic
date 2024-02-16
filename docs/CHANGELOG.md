@@ -1,3 +1,12 @@
+# [v1.1.0](https://github.com/alipendix/semantic/compare/v1.0.5...v1.1.0) (2024-02-16)
+
+## ✨ New Features
+- [`71b7775`](https://github.com/alipendix/semantic/commit/71b7775)   new version 
+
+
+
+# [1.1.0](https://github.com/alipendix/semantic/compare/v1.0.5...v1.1.0) (2024-02-16)
+
 # [v1.0.5](https://github.com/alipendix/semantic/compare/v1.0.4...v1.0.5) (2024-02-16)
 
 ## 🐛 Bug Fixes
