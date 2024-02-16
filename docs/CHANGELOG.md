@@ -1,3 +1,12 @@
+# [v1.0.5](https://github.com/alipendix/semantic/compare/v1.0.4...v1.0.5) (2024-02-16)
+
+## 🐛 Bug Fixes
+- [`32e1a75`](https://github.com/alipendix/semantic/commit/32e1a75)  update doc 
+
+
+
+## [1.0.5](https://github.com/alipendix/semantic/compare/v1.0.4...v1.0.5) (2024-02-16)
+
 # [v1.0.4](https://github.com/alipendix/semantic/compare/v1.0.3...v1.0.4) (2024-02-16)
 
 
