@@ -1,3 +1,7 @@
+# Introducción
+
+Bienvenido a este proyecto, diseñado para ofrecer un claro ejemplo del potencial y la versatilidad de semantic-release. A lo largo de esta experiencia, exploraremos las diversas capacidades que esta herramienta proporciona, destacando cómo puede ser aprovechada de manera efectiva.
+
 # Semantic-Release 🚀
 
 `semantic-release` automatiza todo el flujo de trabajo de lanzamiento de un paquete, incluyendo: determinar el próximo número de versión, generar las notas de lanzamiento y publicar el paquete. ¡Deja que la magia suceda mientras automatizas tus lanzamientos!
