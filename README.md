@@ -1,6 +1,17 @@
-# Introducción
+# ¡Bienvenido a nuestro Proyecto! 🚀
 
-Bienvenido a este proyecto, diseñado para ofrecer un claro ejemplo del potencial y la versatilidad de semantic-release. A lo largo de esta experiencia, exploraremos las diversas capacidades que esta herramienta proporciona, destacando cómo puede ser aprovechada de manera efectiva.
+Este espacio fue creado con la intención de brindarte un ejemplo vívido del potencial y la versatilidad que ofrece semantic-release. Prepárate para sumergirte en una experiencia que destaca las diversas capacidades de esta herramienta y cómo puedes sacar el máximo provecho de ellas. 🌐💡
+
+## Conoce las Claves 🔑
+
+Para comprender plenamente el funcionamiento de nuestro proyecto, es esencial familiarizarse con dos elementos clave: **semantic-release** y la metodología de **Commits Convencionales**. Estos dos pilares permiten una gestión de versiones sin complicaciones. Aquí te dejo una breve descripción de ambos, junto con enlaces a sus documentaciones oficiales:
+
+1. **semantic-release**: Descubre cómo esta herramienta revoluciona la gestión de versiones de software, haciendo el proceso más eficiente y automatizado. 🛠️ [Documentación oficial de semantic-release](enlace-a-documentacion-semantic-release)
+
+2. **Commits Convencionales**: Sumérgete en la metodología que facilita la comprensión y seguimiento de los cambios en el código. Aprenderás cómo los commits convencionales se traducen en versiones significativas. 📝 [Documentación oficial de Commits Convencionales](enlace-a-documentacion-commits-convencionales)
+
+¡Vamos a explorar juntos las maravillas de semantic-release y la magia detrás de Commits Convencionales! 🌟
+
 
 # Semantic-Release 🚀
 
