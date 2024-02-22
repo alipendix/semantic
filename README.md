@@ -6,14 +6,7 @@ Este espacio fue creado con la intención de brindarte un ejemplo vívido del po
 
 Para comprender plenamente el funcionamiento de nuestro proyecto, es esencial familiarizarse con dos elementos clave: **semantic-release** y la metodología de **Commits Convencionales**. Estos dos pilares permiten una gestión de versiones sin complicaciones. Aquí te dejo una breve descripción de ambos, junto con enlaces a sus documentaciones oficiales:
 
-1. **semantic-release**: Descubre cómo esta herramienta revoluciona la gestión de versiones de software, haciendo el proceso más eficiente y automatizado. 🛠️ [Documentación oficial de semantic-release](enlace-a-documentacion-semantic-release)
-
-2. **Commits Convencionales**: Sumérgete en la metodología que facilita la comprensión y seguimiento de los cambios en el código. Aprenderás cómo los commits convencionales se traducen en versiones significativas. 📝 [Documentación oficial de Commits Convencionales](enlace-a-documentacion-commits-convencionales)
-
-¡Vamos a explorar juntos las maravillas de semantic-release y la magia detrás de Commits Convencionales! 🌟
-
-
-# Semantic-Release 🚀
+1. **semantic-release**: 🚀
 
 `semantic-release` automatiza todo el flujo de trabajo de lanzamiento de un paquete, incluyendo: determinar el próximo número de versión, generar las notas de lanzamiento y publicar el paquete. ¡Deja que la magia suceda mientras automatizas tus lanzamientos!
 
@@ -21,7 +14,7 @@ Este proceso elimina la conexión inmediata entre las emociones humanas y los n�
 
 ¡Chequea [semantic-release en GitHub](https://github.com/semantic-release/semantic-release) para comenzar tu viaje sin preocupaciones en el mundo de los lanzamientos automatizados!
 
-# Commits Convencionales 📝
+2. **Commits Convencionales**: 📝
 
 La especificación de Commits Convencionales es como un lenguaje sencillo para tus mensajes de commits. Proporciona un conjunto fácil de reglas para crear un historial de commits explícito, facilitando la escritura de herramientas automatizadas encima del historial. Esta convención se alinea perfectamente con SemVer, permitiéndote describir en los mensajes de los commits las funcionalidades, arreglos y cambios de ruptura realizados.
 
