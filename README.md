@@ -1,4 +1,4 @@
-# ¡Descubre nuestro Proyecto! 🚀
+# Introducción 🚀
 
 Bienvenido a este espacio diseñado para sumergirte en el fascinante mundo de `semantic-release` y la metodología de `Commits Convencionales`. Aquí, te proporcionaremos una experiencia vibrante que resalta las diversas capacidades de estas herramientas, mostrándote cómo aprovechar al máximo sus potencialidades. 🌐💡
 
